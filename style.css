@@ -1,0 +1,48 @@
+body{
+    background: radial-gradient(#1b1a1b, #413f40);
+    padding: 10px;
+    margin: 20px;
+    font-family: 'Manufacturing Consent', Monospace;
+    color: #9edaf0;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1, h2{
+    text-align: center;
+    text-shadow: 4px 6px 2px #1e00ff;
+    font-size: 100px;
+    transform: skew(-10deg)
+}
+h3{
+    text-align: center;
+    text-shadow: 4px 6px 2px #1e00ff;
+    font-size: 40px;
+    transform: skew(-10deg)
+}
+h1:hover, h2:hover, h3:hover{
+    color:#00d9ff;
+}
+p{
+    text-align: center;
+    font-family: Monospace;
+    font-size: 18px;
+}
+ul, ol{
+    background-color: #1e1e1ea7;
+    border-width: 4px;
+    border-color: #9edaf0;
+    border-style: dotted dotted dashed dashed;
+    padding: 60px;
+    margin: 10px 20px 10px 20px;
+    font-family: Monospace;
+    font-size: 16px;
+    line-height: 1.6;
+}
+hr{
+    margin: 40px;
+}
+img{
+    transform: rotate(-30deg);
+    margin: 60px;
+}
