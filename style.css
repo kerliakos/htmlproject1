@@ -11,31 +11,39 @@ body{
 
 h1, h2{
     text-align: center;
+    margin-bottom: -5px;
     text-shadow: 4px 6px 2px #1e00ff;
     font-size: 100px;
-    transform: skew(-10deg)
+    transform: skew(-10deg);
 }
 
 h3{
     text-align: center;
+    margin-bottom: -25px;
     text-shadow: 4px 6px 2px #1e00ff;
     font-size: 40px;
-    transform: skew(-10deg)
+    transform: skew(-10deg);
 }
 
 h1:hover, h2:hover, h3:hover{
-    color:#00d9ff;
+    color:#0080ff;
+    transition: color 2s;
 }
 
 p{
+    background-color: #1e1e1ea7;
+    padding: 10px;
+    margin: 10px;
     text-align: center;
     font-family: Monospace;
-    font-size: 18px;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1.6
 }
 
 ul, ol{
     background-color: #1e1e1ea7;
-    border-width: 4px;
+    border-width: 1px;
     border-color: #9edaf0;
     border-style: dotted dotted dashed dashed;
     padding: 60px;
@@ -52,4 +60,15 @@ hr{
 img{
     transform: rotate(-30deg);
     margin: 60px;
+}
+
+a{
+    color: #b7b6ff;
+}
+a:hover{
+    color: #5351ff;
+}
+
+footer{
+    text-align: center;
 }
