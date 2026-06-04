@@ -13,6 +13,7 @@ h1, h2{
     text-align: center;
     margin-bottom: -5px;
     text-shadow: 4px 6px 2px #1e00ff;
+    font-family: 'Manufacturing Consent', Monospace;
     font-size: 100px;
     transform: skew(-10deg);
 }
@@ -21,6 +22,7 @@ h3{
     text-align: center;
     margin-bottom: -25px;
     text-shadow: 4px 6px 2px #1e00ff;
+    font-family: 'Manufacturing Consent', Monospace;
     font-size: 40px;
     transform: skew(-10deg);
 }
@@ -33,7 +35,6 @@ h1:hover, h2:hover, h3:hover{
 p{
     background-color: #1e1e1ea7;
     padding: 10px;
-    margin: 10px;
     text-align: center;
     font-family: Monospace;
     font-style: italic;
@@ -41,20 +42,46 @@ p{
     line-height: 1.6
 }
 
-ul, ol{
+div{
+    background-color: #1e1e1ea7;
+    text-align: center;
+    font-family: Monospace;
+    font-size: 16px;
+    line-height: 1.6
+}
+
+ul{
     background-color: #1e1e1ea7;
     border-width: 1px;
     border-color: #9edaf0;
     border-style: dotted dotted dashed dashed;
     padding: 60px;
     margin: 10px 20px 10px 20px;
+    text-align: left;
     font-family: Monospace;
     font-size: 16px;
     line-height: 1.6;
 }
 
+ol{
+    background-color: #1e1e1ea7;
+    padding: 50px;
+    margin: 10px 20px 10px 20px;
+    font-family: Monospace;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.flex-child{
+    flex: 1 1 0;
+}
+
 hr{
-    margin: 40px;
+    margin: 80px;
 }
 
 img{
